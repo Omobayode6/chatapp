@@ -1,3 +1,26 @@
+# React Test Task.
+
+Please develop a simple web chat.  
+* Before entering the chat, the user is prompted to enter his name, which
+is further used to identify his messages.
+* Implement saving messages in memory (on the local machine, in
+localstorage or somewhere else, without a backend).
+* Each new browser tab is a new chat user. Each new browser tab is a
+new chat user. The new messages in the chat room should be updated
+to all opened tabs (live updating for all users). Not use socket.io all.
+* Implement functionality for sending messages to chat.
+* Implement functionality for show message history, and load more
+messages when scroll chats to the top. (page size = 25)
+* Please write tests on features where they are needed for you think.  
+
+![React Test Task](./ui.PNG)
+
+## Technologies  
+React.js, Redux, Hooks, for layout you can use any ready-made component
+solutions, bootstrap, material ui, etc.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
